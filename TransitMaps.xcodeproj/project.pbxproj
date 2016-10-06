@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					456AB6201DA59F770083D684 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B73NPF94WV;
 						ProvisioningStyle = Automatic;
 					};
 					456AB6341DA59F770083D684 = {
@@ -339,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B73NPF94WV;
 				INFOPLIST_FILE = TransitMaps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TransitMaps;
@@ -351,6 +353,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B73NPF94WV;
 				INFOPLIST_FILE = TransitMaps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TransitMaps;
