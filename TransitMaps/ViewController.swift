@@ -29,6 +29,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
         scrollView.delegate = self
         setZoomScale()
+        setupGestureRecognizer()
     }
 
     override func didReceiveMemoryWarning() {
@@ -65,6 +66,20 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         scrollView.minimumZoomScale = minZoomScale
         scrollView.maximumZoomScale = 4.0
         scrollView.zoomScale = minZoomScale
+    }
+    
+    func setupGestureRecognizer() {
+        let doubleTap = UITapGestureRecognizer(target: self, action: #selector(handleDoubleTap(recognizer:)))
+        doubleTap.numberOfTapsRequired = 2
+        scrollView.addGestureRecognizer(doubleTap)
+    }
+    
+    func handleDoubleTap(recognizer: UITapGestureRecognizer) {
+        if (scrollView.zoomScale > scrollView.minimumZoomScale) {
+            scrollView.setZoomScale(scrollView.minimumZoomScale, animated: true)
+        } else {
+            scrollView.setZoomScale(1, animated: true)
+        }
     }
 }
 

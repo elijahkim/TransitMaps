@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		456AB6251DA59F770083D684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456AB6241DA59F770083D684 /* AppDelegate.swift */; };
 		456AB6271DA59F770083D684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456AB6261DA59F770083D684 /* ViewController.swift */; };
-		456AB62A1DA59F770083D684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456AB6281DA59F770083D684 /* Main.storyboard */; };
 		456AB62C1DA59F770083D684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456AB62B1DA59F770083D684 /* Assets.xcassets */; };
-		456AB62F1DA59F770083D684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456AB62D1DA59F770083D684 /* LaunchScreen.storyboard */; };
 		456AB63A1DA59F770083D684 /* TransitMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456AB6391DA59F770083D684 /* TransitMapsTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +27,7 @@
 		456AB6211DA59F770083D684 /* TransitMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		456AB6241DA59F770083D684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		456AB6261DA59F770083D684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		456AB6291DA59F770083D684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		456AB62B1DA59F770083D684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		456AB62E1DA59F770083D684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		456AB6301DA59F770083D684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		456AB6351DA59F770083D684 /* TransitMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		456AB6391DA59F770083D684 /* TransitMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitMapsTests.swift; sourceTree = "<group>"; };
@@ -79,9 +75,7 @@
 			children = (
 				456AB6241DA59F770083D684 /* AppDelegate.swift */,
 				456AB6261DA59F770083D684 /* ViewController.swift */,
-				456AB6281DA59F770083D684 /* Main.storyboard */,
 				456AB62B1DA59F770083D684 /* Assets.xcassets */,
-				456AB62D1DA59F770083D684 /* LaunchScreen.storyboard */,
 				456AB6301DA59F770083D684 /* Info.plist */,
 			);
 			path = TransitMaps;
@@ -180,9 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				456AB62F1DA59F770083D684 /* LaunchScreen.storyboard in Resources */,
 				456AB62C1DA59F770083D684 /* Assets.xcassets in Resources */,
-				456AB62A1DA59F770083D684 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,25 +214,6 @@
 			targetProxy = 456AB6361DA59F770083D684 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		456AB6281DA59F770083D684 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				456AB6291DA59F770083D684 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		456AB62D1DA59F770083D684 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				456AB62E1DA59F770083D684 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		456AB63C1DA59F770083D684 /* Debug */ = {
